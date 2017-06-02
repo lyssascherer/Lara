@@ -1,0 +1,114 @@
+.papa {
+    width: 250px;
+}
+
+.mama2 {
+    width: 150px;
+}
+
+.mama {
+    width: 100px;
+}
+
+.baby {
+    width: 50px;
+}
+p {
+    font-size: 18px;
+    text-align:justify;
+}
+div.tooltip-inner {
+    font-size: 15px;
+}
+
+.tutor {
+    position: fixed;
+    padding: 0px;
+    border: 340px;
+    margin: 300px 0px 0px 1250px;
+}
+.balao-pequeno {
+    position: fixed;
+    padding: 0px;
+    border: 340px;
+    margin: 170px 0px 0px 1250px;
+}
+.balao-medio {
+    position: fixed;
+    padding: 0px;
+    border: 340px;
+    margin: 100px 0px 0px 1250px;
+}
+.balao-grande {
+    position: fixed;
+    padding: 0px;
+    border: 340px;
+    margin: 30px 0px 0px 1250px;
+}
+
+.speech-bubble {
+   position: fixed;
+   max-width:223px;
+   min-height:1.5em;
+   line-height: 20px;
+   color: #757171;
+   text-align: center;
+   padding: 0px;
+   background: #f5f5f5;
+   border-radius: 15px;
+   border: #bfbfbf solid 2px;
+   /*box-shadow: 5px 5px 2px 0px #A3A3A3;*/
+}
+
+.speech-bubble:after {
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 41px 22px 0;
+   border-color:#f5f5f5 transparent;
+   display: block;
+   width: 0;
+   z-index: 1;
+   bottom: -40px;
+   left: 30%;
+}
+
+.speech-bubble:before {
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 41px 22px 0;
+   border-color:  #bfbfbf transparent;
+   display: block;
+   width: 0;
+   z-index: 0;
+   bottom: -43px;
+   left: 30%;
+}
+
+.talktext{
+  padding: 1em;
+	text-align: center;
+  line-height: 1.5em;
+}
+
+
+img {
+    vertical-align: top;
+}
+
+body {
+    padding: 20px;
+}
+
+.bigText {
+    height:40px;
+    width: 40px;
+    font-size:18pt;
+    text-align: center;
+}
+.smallText {
+    height:40px;
+    width: 300px;
+    font-size:18pt;
+}
